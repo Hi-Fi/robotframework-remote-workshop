@@ -1,5 +1,5 @@
 *** Settings ***
-Library    Remote    ${SERVER}:${PORT}/       WITH NAME    RemoteLibraryDemo
+Library    Remote    ${SERVER}:${PORT}/db       WITH NAME    RemoteLibraryDemo
 
 *** Variables ***
 ${SERVER}  http://127.0.0.1

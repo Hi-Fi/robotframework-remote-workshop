@@ -10,6 +10,7 @@ Authentication Test
     [Template]    Test Authentication
     ${EMPTY}    ${EMPTY}    test
     abc    abc    abc
+    username    password    username
 
 *** Keywords ***
 Test Authentication

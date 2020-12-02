@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="0" skipped="0" tests="1" name="Acceptance" time="0.839" errors="0">
-<testcase classname="Acceptance.Crypt" name="Compare secret value" time="0.035">
+<testsuite failures="0" skipped="0" tests="1" name="Acceptance" time="1.261" errors="0">
+<testcase classname="Acceptance.Crypt" name="Compare secret value" time="0.470">
 </testcase>
 </testsuite>

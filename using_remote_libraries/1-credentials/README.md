@@ -27,5 +27,5 @@ Example implementation can be executed with Python:
 
 ## Questions
 
-- How remote server should be secured? Should it?
+- How remote server/libraries should be secured? Should it?
 - How should credentials be injected to remote server?

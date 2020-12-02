@@ -59,7 +59,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>org.robotframework.remoteserver.RemoteServer</mainClass>
                     <arguments>
                         <argument>-classpath</argument>
                         <!-- automatically creates the classpath using all project dependencies,
@@ -68,6 +67,8 @@
                         <argument>org.robotframework.remoteserver.RemoteServer</argument>
                         <argument>--library</argument>
                         <argument>DatabaseLibrary:/</argument>
+                        <argument>--library</argument>
+                        <argument>DatabaseLibrary:/db</argument>
                         <argument>--port</argument>
                         <argument>8270</argument>
                     </arguments>
