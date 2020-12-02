@@ -16,7 +16,6 @@ class AuthenticateLibrary(object):
         req = urllib.request.Request(url)
         b64auth = base64.standard_b64encode(str.encode(f"{username}:{password}")).decode("UTF-8")
         req.add_header("Authorization", f"Basic {b64auth}")
-        result = urllib.request.urlopen(req)
         with urllib.request.urlopen(req) as response:
             return response.read().decode('utf-8')
 
